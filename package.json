@@ -1,0 +1,26 @@
+{
+  "name": "nkem",
+  "version": "1.0.0",
+  "description": "",
+  "source": "./src/index.html",
+  "scripts": {
+    "dev": "parcel"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Terdanny1/Nkem.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Terdanny1/Nkem/issues"
+  },
+  "homepage": "https://github.com/Terdanny1/Nkem#readme",
+  "devDependencies": {
+    "autoprefixer": "^10.4.13",
+    "parcel": "^2.8.0",
+    "postcss": "^8.4.19",
+    "tailwindcss": "^3.2.4"
+  }
+}
