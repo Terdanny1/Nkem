@@ -4,6 +4,9 @@ module.exports = {
     "./src/**/*.{html,js,ts,jsx,tsx}",
   ],
   theme: {
+    // fontFamily :{
+    //   'body': 'Sora, sans-serif'
+    // }
     extend: {},
   },
   plugins: [],
