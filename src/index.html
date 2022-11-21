@@ -17,7 +17,7 @@
 </head>
 <body class="bg-[#FFFFFF]">
     
-    <nav class="relative container mx-auto px-3 w-full shadow-md">
+    <nav class="relative mx-auto lg:px-10 px-3 w-full shadow-md">
 
         <!-- flex container -->
         <div class="flex items-center justify-between ">
@@ -27,8 +27,8 @@
                     <a href=""><img src="./assets/images/logo.png" alt=""></a>
                 </div>
                 <!-- menu items -->
-                <div class="hidden md:flex space-x-6 text-[#501827] opacity-50 font-semibold">
-                    <a href="#" class="focus:text-[#F14976] ease-in duration-300 hover:scale-125">Home</a>
+                <div class="hidden md:flex space-x-6 text-[#501827] text-opacity-50 font-semibold">
+                    <a href="#" class="focus:text-[#F14976] ease-in duration-300 hover:scale-125 text-opacity-0">Home</a>
                     <a href="#" class="ease-in duration-300 hover:scale-125">About Us</a>
                     <a href="#" class="ease-in duration-300 hover:scale-125">Testimonials</a>
                     
@@ -36,12 +36,48 @@
 
                 <!-- button -->
                 <div class="hidden transition duration-300 ease-in-out hover:scale-105 rounded-sm bg-[#F14976] p-[1px] md:flex justify-center items-center m-4">
-                    <button class="bg-[#FFFFFF] rounded-sm p-3 w-full">
-                        <a href="#" class="rounded-sm font-bold text-[#F14976] text-[22.0444px] p-3 m-4 ">Get Started</a>
+                    <button class="bg-[#FFFFFF] rounded-sm p-[6.88889px] w-full">
+                        <a href="#" class="rounded-sm font-bold text-[#F14976] text-[18px] p-3 m-4 ">Get Started</a>
                     </button>
                 </div>
         </div>    
     </nav>
+
+      <!-- hero section -->
+        <section id="hero">
+
+            <!-- flex container -->
+            <div class="container flex flex-col md:flex-row items-center px-3 mx-auto mt-10 space-y-0 md:space-y-0">
+
+                    <!-- left item -->
+
+                    <div class="flex flex-col mb space-y-6  md:w-1/2">
+                    <div class="mt-8 mx-auto lg:mx-0">
+                        <img src="./assets/Images/Heart-1.png" alt="">
+                    </div>
+                        <h1 class="max-w-lg text-4xl font-bold text-center md:text-5xl md:text-left lg:leading-[4rem] mt-14 bg-clip-text bg-gradient-to-r from-[#000000] via-[#300F18] to-[#501827]">
+                            A Fun Way to Find Your <span class="font-['Roboto'] text-[#F14976]">Perfect Partner </span> With Ease 
+                        </h1>
+                        <p class="w-full text-center font-[400] text-[20px] opacity-80 text-[#501827] leading-[28.24px] md:text-left">
+                            Find a match that who has similar passion and <br> intrest with you. Build last and thriving friendships <br> and  relationships with people with similar <br> interests . 
+                        </p>
+
+                        <div class="w-[182px] mx-auto lg:mx-0 transition duration-300 ease-in-out hover:scale-105 rounded-sm bg-[#F14976] p-1 flex justify-center items-center">
+                            <button class="rounded-md p-[7.39496px] ">
+                            <a href="#" class="rounded-sm font-bold text-[#FCFCFC]">Download App</a>
+                            </button>
+                        </div>
+
+                    </div>
+
+
+                    <!-- image -->
+
+                    <div class="mx-auto md:w-2/5 pt-10 lg:pt-0">
+                        <img src="./assets/images/Hero-image.png" class="">
+                    </div>
+            </div>
+        </section>
     
     <script type="module" src="./assets/js/main.js"></script>
 </body>

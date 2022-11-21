@@ -7,7 +7,9 @@ module.exports = {
     // fontFamily :{
     //   'body': 'Sora, sans-serif'
     // }
-    extend: {},
+    extend: {
+      
+    },
   },
   plugins: [],
 }
