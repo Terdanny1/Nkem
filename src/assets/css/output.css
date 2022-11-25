@@ -1124,6 +1124,10 @@ video {
 }
 
 @media (min-width: 640px) {
+  .sm\:absolute {
+    position: absolute;
+  }
+
   .sm\:w-auto {
     width: auto;
   }
@@ -1171,6 +1175,10 @@ video {
 }
 
 @media (min-width: 1024px) {
+  .lg\:absolute {
+    position: absolute;
+  }
+
   .lg\:mx-0 {
     margin-left: 0px;
     margin-right: 0px;
