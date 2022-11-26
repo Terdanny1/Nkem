@@ -21,7 +21,7 @@ You will need to install parcel
 
 Below is the figma UI design
 
-![Nkem](./src/assets/images/nkem-web.png)
+![Nkem](./src/assets/Images/nkem-web.png)
 
 
 ## Licence & Copyright
