@@ -563,6 +563,10 @@ video {
   right: 1.5rem;
 }
 
+.z-10 {
+  z-index: 10;
+}
+
 .m-4 {
   margin: 1rem;
 }
@@ -688,8 +692,8 @@ video {
   width: 182px;
 }
 
-.w-96 {
-  width: 24rem;
+.w-80 {
+  width: 20rem;
 }
 
 .w-\[155px\] {
@@ -698,22 +702,6 @@ video {
 
 .w-\[300px\] {
   width: 300px;
-}
-
-.w-10 {
-  width: 2.5rem;
-}
-
-.w-4 {
-  width: 1rem;
-}
-
-.w-48 {
-  width: 12rem;
-}
-
-.w-80 {
-  width: 20rem;
 }
 
 .max-w-lg {
@@ -766,28 +754,22 @@ video {
   margin-left: calc(1.5rem * calc(1 - var(--tw-space-x-reverse)));
 }
 
-.space-y-0 > :not([hidden]) ~ :not([hidden]) {
-  --tw-space-y-reverse: 0;
-  margin-top: calc(0px * calc(1 - var(--tw-space-y-reverse)));
-  margin-bottom: calc(0px * var(--tw-space-y-reverse));
-}
-
 .space-y-6 > :not([hidden]) ~ :not([hidden]) {
   --tw-space-y-reverse: 0;
   margin-top: calc(1.5rem * calc(1 - var(--tw-space-y-reverse)));
   margin-bottom: calc(1.5rem * var(--tw-space-y-reverse));
 }
 
+.space-y-0 > :not([hidden]) ~ :not([hidden]) {
+  --tw-space-y-reverse: 0;
+  margin-top: calc(0px * calc(1 - var(--tw-space-y-reverse)));
+  margin-bottom: calc(0px * var(--tw-space-y-reverse));
+}
+
 .space-y-2 > :not([hidden]) ~ :not([hidden]) {
   --tw-space-y-reverse: 0;
   margin-top: calc(0.5rem * calc(1 - var(--tw-space-y-reverse)));
   margin-bottom: calc(0.5rem * var(--tw-space-y-reverse));
-}
-
-.space-x-4 > :not([hidden]) ~ :not([hidden]) {
-  --tw-space-x-reverse: 0;
-  margin-right: calc(1rem * var(--tw-space-x-reverse));
-  margin-left: calc(1rem * calc(1 - var(--tw-space-x-reverse)));
 }
 
 .self-end {
@@ -804,10 +786,6 @@ video {
 
 .rounded-lg {
   border-radius: 0.5rem;
-}
-
-.rounded-full {
-  border-radius: 9999px;
 }
 
 .bg-\[\#FFFFFF\] {
@@ -834,15 +812,6 @@ video {
   background-color: transparent;
 }
 
-.bg-\[\#1e1e1e\] {
-  --tw-bg-opacity: 1;
-  background-color: rgb(30 30 30 / var(--tw-bg-opacity));
-}
-
-.bg-\[\] {
-  background-color: ;
-}
-
 .bg-opacity-10 {
   --tw-bg-opacity: 0.1;
 }
@@ -861,43 +830,13 @@ video {
   --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
 }
 
-.from-\[\#060A30\] {
-  --tw-gradient-from: #060A30;
-  --tw-gradient-to: rgb(6 10 48 / 0);
-  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
-}
-
-.from-\[\#9C12BD\] {
-  --tw-gradient-from: #9C12BD;
-  --tw-gradient-to: rgb(156 18 189 / 0);
-  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
-}
-
 .via-\[\#300F18\] {
   --tw-gradient-to: rgb(48 15 24 / 0);
   --tw-gradient-stops: var(--tw-gradient-from), #300F18, var(--tw-gradient-to);
 }
 
-.via-\[\#070C38\] {
-  --tw-gradient-to: rgb(7 12 56 / 0);
-  --tw-gradient-stops: var(--tw-gradient-from), #070C38, var(--tw-gradient-to);
-}
-
-.via-\[\#270D45\] {
-  --tw-gradient-to: rgb(39 13 69 / 0);
-  --tw-gradient-stops: var(--tw-gradient-from), #270D45, var(--tw-gradient-to);
-}
-
 .to-\[\#501827\] {
   --tw-gradient-to: #501827;
-}
-
-.to-\[\#070C38\] {
-  --tw-gradient-to: #070C38;
-}
-
-.to-\[\#1F3AD6\] {
-  --tw-gradient-to: #1F3AD6;
 }
 
 .bg-clip-text {
@@ -942,6 +881,11 @@ video {
   padding-right: 0.75rem;
 }
 
+.py-8 {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
 .px-5 {
   padding-left: 1.25rem;
   padding-right: 1.25rem;
@@ -950,11 +894,6 @@ video {
 .py-6 {
   padding-top: 1.5rem;
   padding-bottom: 1.5rem;
-}
-
-.py-8 {
-  padding-top: 2rem;
-  padding-bottom: 2rem;
 }
 
 .pt-2 {
@@ -1037,14 +976,14 @@ video {
   color: rgb(241 73 118 / var(--tw-text-opacity));
 }
 
-.text-\[\#FCFCFC\] {
-  --tw-text-opacity: 1;
-  color: rgb(252 252 252 / var(--tw-text-opacity));
-}
-
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+.text-\[\#FCFCFC\] {
+  --tw-text-opacity: 1;
+  color: rgb(252 252 252 / var(--tw-text-opacity));
 }
 
 .text-opacity-50 {
@@ -1136,10 +1075,6 @@ video {
 }
 
 @media (min-width: 640px) {
-  .sm\:absolute {
-    position: absolute;
-  }
-
   .sm\:w-auto {
     width: auto;
   }
@@ -1187,10 +1122,6 @@ video {
 }
 
 @media (min-width: 1024px) {
-  .lg\:absolute {
-    position: absolute;
-  }
-
   .lg\:mx-0 {
     margin-left: 0px;
     margin-right: 0px;
